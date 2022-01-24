@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+  	font-weight: ;
+  	line-height: 1.5;
+  	background-color: black;
+
+}
+
+/*Nav*/
+
+.form-control{
+    background-color: #d5e7eb;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1em;
+    padding-left: 1em;
+	}
+.navbar-nav li a{
+	text-decoration: none;
+	color: white;
+	border-right: 1px solid gray;
+	padding-top:0;
+	padding-bottom: 0;
+	}
+.navbar-nav li a:hover{
+	color: #00CED1;
+	}
+.navbar-nav li .active{
+	color: #00CED1;
+	}
+.btn-outline-success {
+    color: #00CED1;
+    border: none;
+	}
+.btn-outline-success:hover{
+	background-color: #00CED1; 
+	}
+
+.complet{
+	padding: 0;
+}
+.main-centre{
+	height: 81.3vh;
+}
+
+h1{
+	text-transform: uppercase;
+	color: lightgray;
+	font-weight: 500;
+}
+
+.ajaxbtn button{
+	margin: 0 2em;
+	padding: 1em 2em;
+	border-radius: 10px;
+	font-weight: 500;
+
+}
+
+.cercle{
+	border: 1px solid white;
+    background-color: white;
+    height: 4em;
+    padding: 0em 3em 0 3em;
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;
+}
+.cercle i{
+	padding-top: 0.3em;
+}
+
+.foot{
+	background-color: gray;
+	color: white;
+	padding-top: 1em; 
+}
+/*.foot p::after{
+	content: "/";
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.foot p:last-child::after{
+	content: "";
+}*/
+.foot i{
+	padding: 0 0.5em;
+}
